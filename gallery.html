@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        html{
+            margin: -8px;
+            background-color: black;
+            font-family: Georgia, 'Times New Roman', Times, sans-serif;
+        }
+        body{
+            margin: 10px;
+            <!-- border:2px solid antiquewhite; -->
+            border-radius:20px;
+        }
+        .image{
+            width:29vw;
+            height: 30vw;
+            margin:1vw;
+            margin-left: 1vw;
+            margin-right: 0px;
+            border-radius:10px;
+        }
+        a{
+            color:aliceblue; font-size:30px; background-color:crimson;
+            border:2px solid white; 
+            padding:5px; 
+            margin:15px auto 15px auto; 
+            height:40px; 
+            width:100px; 
+            display:block; 
+            border-radius:20px;
+            text-decoration:none; 
+            text-align:center;
+        }
+        a:hover{
+            transition :.4s;
+            border:2px solid crimson;
+            background-color:antiquewhite;
+            color:crimson;
+            transform:scale(1.10) ;
+            cursor: pointer;
+        }
+        div{
+            display: flexbox;
+            padding: 2%;
+        }
+        label{
+            margin:auto;
+            display:block;
+            color:antiquewhite;
+            text-align: center;
+            font-size: 35px;
+            font-family: "Free-pen",sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Back</a>
+    <div style="border:2px solid antiquewhite; margin:10px; border:2px solid aliceblue; background-color:#191919; border-radius:20px;">
+        <label>My Gallery</label>
+        <img src="gallery/1.JPG" alt="hello" id="cert" class="image">
+        <img src="gallery/10.jpg" alt="hello" id="cert" class="image">
+        <img src="gallery/2.JPG" alt="hello" id="cert" class="image">
+        <img src="gallery/3.JPG" alt="hello" id="cert" class="image">
+        <img src="gallery/4.JPG" alt="hello" id="cert" class="image">
+        <img src="gallery/5.JPG" alt="hello" id="cert" class="image">
+    </div>
+</body>
+</html>
